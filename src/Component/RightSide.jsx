@@ -12,49 +12,49 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const RightSide = () => {
   return (
     <div className=" h-full w-full">
-      <div className=" bg-gray-50 p-5 space-y-3">
+      <div className=" bg-gray-50 lg:p-5 p-2 space-y-3">
         <div className=" flex justify-between items-center ">
           <h1>Delivery</h1>
           <div>
             <FontAwesomeIcon className="" icon={faCircleInfo} />
           </div>
         </div>
-        <div className=" flex justify-between items-center  gap-5 px-1 py-2">
+        <div className=" flex justify-between items-center gap-2  lg:gap-5 lg:px-1 lg:py-2">
           <p>
-            <FontAwesomeIcon icon={faLocationDot} className=" text-2xl" />
+            <FontAwesomeIcon icon={faLocationDot} className=" lg:text-2xl" />
           </p>
-          <p className=" text-xl text-black">
+          <p className=" lg:text-xl text-black">
             Dhaka, Dhaka North, Banani, Road no 12-19
           </p>
-          <a href="#" className="text-xl text-sky-400 uppercase">
+          <a href="#" className="lg:text-xl text-sky-400 uppercase">
             Change
           </a>
         </div>
         <hr />
 
         <div className=" space-y-3">
-          <div className=" flex justify-between items-center">
-            <FontAwesomeIcon icon={faHandshake} className=" text-2xl" />
+          <div className=" flex lg:justify-between justify-center items-center gap-2">
+            <FontAwesomeIcon icon={faHandshake} className=" lg:text-2xl" />
             <div>
-              <div className=" flex justify-center items-center">
-                <h2 className="text-2xl text-black font-semibold">
+              <div className=" flex justify-center items-center gap-3 lg:gap-0">
+                <h2 className="lg:text-2xl text-sm text-black lg:font-semibold">
                   FREE DELIVERY
                 </h2>
-                <p className=" text-lg">26 FEB - 2 MARCH</p>
+                <p className=" text-sm lg:text-lg">26 FEB - 2 MARCH</p>
               </div>
-              <h2 className=" text-lg">6-9 day(s)</h2>
+              <h2 className=" text-xs lg:text-lg">6-9 day(s)</h2>
             </div>
-            <h2 className="text-black font-medium">FREE</h2>
+            <h2 className="text-black lg:font-medium ">FREE</h2>
           </div>
           <div className="flex justify-center items-center gap-12">
             <div className="flex-1"></div>
             <div className=" bg-white p-2 shadow-lg">
-                <h2 className=" text-xl">Enjoy Free shipping promotion with minimum spend of <span className=" text-3xl">&#2547;</span> 499 From <a href="#" className=" text-sky-500 font-medium ">Foraji Fashion</a></h2>
+                <h2 className=" lg:text-xl">Enjoy Free shipping promotion with minimum spend of <span className=" text-3xl">&#2547;</span> 499 From <a href="#" className=" text-sky-500 font-medium ">Foraji Fashion</a></h2>
             </div>
           </div>
           <div className=" flex items-center gap-5">
-          <FontAwesomeIcon icon={faHandHoldingDollar} className=" text-3xl" />
-          <h2 className="text-xl">Cash on Delivery Available</h2>
+          <FontAwesomeIcon icon={faHandHoldingDollar} className=" lg:text-3xl" />
+          <h2 className="lg:text-xl text-lg">Cash on Delivery Available</h2>
           </div>
         </div>
 
